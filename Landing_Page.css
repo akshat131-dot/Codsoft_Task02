@@ -1,0 +1,157 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  /* background: url('background.png') no-repeat center center/cover; */
+  
+}
+
+/* Ensure the html and body elements take up the full height */
+html,
+body {
+  height: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Utility classes */
+ .features  {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-attachment: fixed;
+} 
+
+.header {
+  background-color:black;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  float: right;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  color:whitesmoke;
+  padding: 0 20px;
+  height: 100vh; /* Ensure it takes the full height of the viewport */
+  background: url('Laptop6.jpg') no-repeat center center/cover;
+  backface-visibility: initial;
+     
+  background-attachment: fixed; /* Ensures the background image stays fixed when scrolling */
+}
+
+.welcome h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.welcome p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.features {
+  text-align: center;
+  padding: 60px 20px;
+  /* Added background color for better visual separation */
+}
+
+.about{
+  text-align: center;
+  padding: 60px 20px;
+}
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.feature-item {
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 18px;
+}
+
+.contact {
+  /* background-color: rgb(238, 181, 244); */
+  background: url(theme2.jpeg) no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.fixed_area{
+  text-align: center;  
+  margin-left: 270px;
+  width: 700px; /* Set the width of the fixed area */
+  height: 50px; /* Set the height of the fixed area */
+ 
+}
+.footer {
+  background-color: #333;
+  background-color:black;
+  color: rgb(232, 230, 226);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+}
